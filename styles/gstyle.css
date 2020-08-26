@@ -6,12 +6,24 @@ a img {
   width: 50px;
 }
 
+.header1 {
+  background-color: #c1c1c1;
+}
 /* input{
 
     top: 3px;
     left: 24px;
     width: 200px;
 } */
+
+.inputtext {
+  width: 44%;
+  margin-bottom: 10px;
+  position: absolute;
+  top: 1.5%;
+  left: 26%;
+  height: 30px;
+}
 
 #text1 {
   width: 150px;
@@ -20,8 +32,8 @@ a img {
 }
 
 #search {
-  position: absolute;
-  width: 30px;
+  position: relative;
+  width: 20px;
 }
 
 h1 {
