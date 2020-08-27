@@ -4,23 +4,19 @@ a {
 
 a img {
   width: 50px;
+  padding: 0px 5px 5px 0px;
 }
 
 .header1 {
   background-color: #c1c1c1;
+  padding-top: 15px;
 }
-/* input{
-
-    top: 3px;
-    left: 24px;
-    width: 200px;
-} */
 
 .inputtext {
   width: 44%;
   margin-bottom: 10px;
   position: absolute;
-  top: 1.5%;
+  top: 3%;
   left: 26%;
   height: 30px;
 }
@@ -31,9 +27,29 @@ a img {
   margin: 0 10px;
 }
 
-#search {
+#wrapper1 {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+#wrapper2 {
   position: relative;
-  width: 20px;
+}
+
+.search {
+  position: absolute;
+  left: 1000px;
+  width: 200px;
+  height: 25px;
+  top: 10px;
+}
+
+#searchicon {
+  position: absolute;
+  width: 15px;
+  right: 236px;
+  top: 15px;
 }
 
 h1 {
@@ -44,10 +60,6 @@ h1 {
     margin-top: 50px ;
     margin-left: 300px;
 } */
-footer {
-  font-size: 20px;
-  width: 50px;
-}
 
 .mystyle {
   color: blueviolet;
@@ -55,4 +67,40 @@ footer {
 }
 .special {
   color: pink;
+}
+
+#footer {
+  background-color: #c1c1c1;
+  padding-bottom: 15px;
+}
+
+.block {
+  width: 100%;
+  height: 900px;
+  background-color: white;
+  border: 2px solid black;
+}
+
+#moveme {
+  width: 400px;
+  height: 300px;
+  background-color: white;
+  position: absolute;
+  top: 200px;
+  left: 150px;
+  border: none;
+}
+
+.footer {
+  background-color: #c1c1c1;
+  padding-top: 15px;
+}
+
+.list {
+  list-style: none;
+}
+
+#wrapper3 {
+  height: 5px;
+  weight: 100%;
 }
