@@ -9,47 +9,59 @@
   </head>
 
   <body>
-    <div id="wrapper1">
-      <div id="wrapper2">
+    <div id="parent"></div>
+    <div id="header">
+      <div id="nav-buttons">
         <a href="#"><img src="./img/left.png" alt="left" class="left" /></a>
         <a href="#"><img src="./img/right.png" alt="right" class="right" /></a>
         <a href="#"
           ><img src="./img/cancel.png" alt="cancel" class="cancel"
         /></a>
         <a href="#"><img src="./img/house.png" alt="house" class="house" /></a>
-        <input type="text" class="inputtext" />
-        <input class="search" type="search" />
-        <img id="searchicon" src="./img/searchIcon.png" alt="" />
       </div>
-      <h1 class="details">Details:</h1>
-      <div class="block" id="mainblock">
-        <div id="moveme1">
-          <ul class="list">
-            <li>Pets:</li>
-            <li>Puppies</li>
-            <li>Cats</li>
-            <li>Kittens</li>
-            <li>Dogs</li>
-            <li>Capybaras</li>
-            <li>Giraffes</li>
-          </ul>
-        </div>
-        <div id="moveme2">
-          <ul class="list">
-            <li>Cities:</li>
-            <li>San Francisco</li>
-            <li>New York</li>
-            <li>San Jose</li>
-            <li>Patteson</li>
-            <li>Los Angeles</li>
-            <li>Palo Alto</li>
-            <li>Palo Sausalito</li>
-          </ul>
-        </div>
-        <input class="button" type="button" value="View Additional Details" />
+      <div id="center-text">
+        <div><input type="text" class="inputtext" /></div>
       </div>
-
-      <div id="wrapper3"></div>
+      <div id="search">
+        <div id="searchbox">
+          <input class="searchtextbox" type="search" />
+          <img id="searchicon" src="./img/searchIcon.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <div id="main-body">
+      <h1 class="title-text">Details:</h1>
+      <div id="body-parent">
+        <div id="top-main">
+          <div id="list1">
+            <ul class="list">
+              <li>Pets:</li>
+              <li>Puppies</li>
+              <li>Cats</li>
+              <li>Kittens</li>
+              <li>Dogs</li>
+              <li>Capybaras</li>
+              <li>Giraffes</li>
+            </ul>
+          </div>
+          <div id="list2">
+            <ul class="list">
+              <li>Cities:</li>
+              <li>San Francisco</li>
+              <li>New York</li>
+              <li>San Jose</li>
+              <li>Patteson</li>
+              <li>Los Angeles</li>
+              <li>Palo Alto</li>
+              <li>Palo Sausalito</li>
+            </ul>
+          </div>
+        </div>
+        <div id="bottom-main">
+          <input id="button" type="button" value="View Additional Details" />
+        </div>
+      </div>
+      <div id="footer1"></div>
     </div>
   </body>
 </html>
