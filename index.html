@@ -30,37 +30,42 @@
       </div>
     </div>
     <div id="main-body">
-      <h1 class="title-text">Details:</h1>
-      <div id="body-parent">
-        <div id="top-main">
-          <div id="list1">
-            <ul class="list">
-              <li>Pets:</li>
-              <li>Puppies</li>
-              <li>Cats</li>
-              <li>Kittens</li>
-              <li>Dogs</li>
-              <li>Capybaras</li>
-              <li>Giraffes</li>
-            </ul>
-          </div>
-          <div id="list2">
-            <ul class="list">
-              <li>Cities:</li>
-              <li>San Francisco</li>
-              <li>New York</li>
-              <li>San Jose</li>
-              <li>Patteson</li>
-              <li>Los Angeles</li>
-              <li>Palo Alto</li>
-              <li>Palo Sausalito</li>
-            </ul>
-          </div>
+      <div id="title-text">
+          <h1 class="title-text">Your Information</h1>
         </div>
-        <div id="bottom-main">
-          <input id="button" type="button" value="View Additional Details" />
-        </div>
+      <div id="form">
+        <form action="process.php" method="POST">
+          <div class="name">
+            <label class="name">Name:  </label>
+            <input class="namefield" type="text" name="firstName" placeholder="Enter first name" />
+          </div>
+          <br />
+          <div class="email">
+            <label class="email">Email:  </label>
+            <input class="emailfield" type="email" name="email" placeholder="Enter email address" />
+          </div>
+          <br>
+          <div class="phone">
+            <label class="phone">Phone:  </label>
+            <input class="phonefield" type="number" name="Phone" placeholder="Enter email phone number"/>
+          </div>
+          <br>
+          <div id="location">
+            <div class="locationsf">
+              <input class="checkbox" type="checkbox" name="sf" />
+              <label>From San Francisco</label>
+            </div>
+            <div class="locationnotsf">
+              <input class="checkbox" type="checkbox" name="notsf" />
+              <label>Not from San Francisco</label>
+            </div>
+          </div>
+          <br>
+          <input class="submitfield" type="submit" name="Submit" value="Submit" />
+        </form>
       </div>
+      </div>
+    </div>
       <div id="footer1"></div>
     </div>
   </body>
